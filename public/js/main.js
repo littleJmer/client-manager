@@ -101,10 +101,7 @@ function feedback($dom, msg, success, reset = false) {
     }
 }
 
-const _HOST = 'http://localhost';
-const _PORT = 8000;
-const _ENDPOINT = '/'
-const API_URL = _HOST + ':' + _PORT + _ENDPOINT;
+const API_URL = 'http://104.248.217.67';
 
 axios.defaults.withCredentials = true;
 
